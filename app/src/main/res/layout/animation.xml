@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewToAnimate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animate Me!"
+        android:textSize="24sp"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnRotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnBlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blink"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnFade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fade"
+        android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/btnSlideUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Up"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnSlideDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Down"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

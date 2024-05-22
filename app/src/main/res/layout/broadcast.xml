@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".BroadcastHandler">
+
+    <Button
+        android:id="@+id/btnToggleAirplaneMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Airplane Mode"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:id="@+id/btnToggleBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Bluetooth"
+        android:layout_below="@id/btnToggleAirplaneMode"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnCheckConnectivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Connectivity"
+        android:layout_below="@id/btnToggleBluetooth"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnCheckBattery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Battery Level"
+        android:layout_below="@id/btnCheckConnectivity"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: "
+        android:layout_below="@id/btnCheckBattery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textSize="18sp"/>
+
+</RelativeLayout>

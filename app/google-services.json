@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "817547775776",
+    "firebase_url": "https://androidcrud-631bd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "androidcrud-631bd",
+    "storage_bucket": "androidcrud-631bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817547775776:android:c63892e78a9e57ffe9d145",
+        "android_client_info": {
+          "package_name": "com.example.lab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUzWnHiI3x1E1L2p31um5jH_hJULO5B5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817547775776:android:f72782a1f8e63518e9d145",
+        "android_client_info": {
+          "package_name": "com.example.practice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUzWnHiI3x1E1L2p31um5jH_hJULO5B5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
